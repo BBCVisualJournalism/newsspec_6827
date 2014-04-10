@@ -1,0 +1,52 @@
+$fix-mqs: 1024px;
+
+@import "main";
+
+iframe {
+	width: 640px;
+}
+img {
+	display: none;
+}
+.container .fallback {
+	display: block;
+}
+ul .bullet {
+	float: left;
+}
+ol {
+	width: 280px;
+	padding-bottom: 30px;
+	li {
+		strong {
+			margin-right: 20px;
+		}
+	}
+}
+.interactive__indicator {
+	display: none;
+}
+.caption {
+	width: 600px;
+	text-align: left;
+	padding-right: 25px;
+	p {
+		text-align: left;
+	}
+}
+.figures {
+	.column {
+		width: 290px;
+	}
+	.last {
+		float: right;
+		margin-right: 20px;
+		ol {
+			li {
+				strong {
+					margin-right: -10px;
+				}
+			}
+		}
+	}
+}
